@@ -7,6 +7,8 @@ https://github.com/taivop/joke-dataset
 
 ### Resources
 
+http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
 https://arxiv.org/pdf/1408.5882.pdf
 
 https://github.com/yoonkim/CNN_sentence
