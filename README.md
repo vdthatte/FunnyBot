@@ -7,6 +7,8 @@ https://github.com/taivop/joke-dataset
 
 ### Resources
 
+LSTM: https://apaszke.github.io/lstm-explained.html
+
 http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
 https://arxiv.org/pdf/1408.5882.pdf
