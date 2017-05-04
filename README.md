@@ -9,6 +9,8 @@ https://github.com/taivop/joke-dataset
 
 LSTM: https://apaszke.github.io/lstm-explained.html
 
+LSTM Implementation: http://machinelearningmastery.com/text-generation-lstm-recurrent-neural-networks-python-keras/
+
 http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
 https://arxiv.org/pdf/1408.5882.pdf
