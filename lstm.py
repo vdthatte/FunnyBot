@@ -6,7 +6,7 @@ from keras.layers import LSTM
 from keras.callbacks import ModelCheckpoint
 from keras.utils import np_utils
 # load ascii text and covert to lowercase
-filename = "wonderland.txt"
+filename = "oneliners.txt"
 raw_text = open(filename).read()
 raw_text = raw_text.lower()
 # create mapping of unique chars to integers
@@ -47,4 +47,4 @@ filepath="weights-improvement-{epoch:02d}-{loss:.4f}-bigger.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
 callbacks_list = [checkpoint]
 # fit the model
-model.fit(X, y, epochs=50, batch_size=64, callbacks=callbacks_list)
+model.fit(X, y, epochs=2, batch_size=64, callbacks=callbacks_list)
